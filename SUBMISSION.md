@@ -4,7 +4,7 @@ Fernando Araujo ID 1266517
 
 #Docker  [50 pts]
 - [5 pts] Your dockerfile. Please provide a link to this file rather than a screen capture.
-![Dockerfile](Dockerfile)
+![Dockerfile](https://github.com/FCAMEX/spring-petclinic/blob/master/Dockerfile)
 - [5 pts] Your running docker instance as shown by a ps command.
 ![Docker PS](figures/dockerps1.jpg)
 - [5 pts] Your browser accessing the main page of the website from your local container.
@@ -15,19 +15,25 @@ Fernando Araujo ID 1266517
 ![Docker Compose1](figures/docker2-compose1.jpg)
 ![Docker Compose2](figures/docker2-compose2.jpg)
 - [5 pts] Your browser accessing the “Veterinarians” page of the website from your local container when you run the application from the host system.
-![Docker Compose1](figures/docker2-vets.jpg)
+![Docker Veterinarians](figures/docker2-vets.jpg)
 - [5 pts] A section of the stack trace generated when you attempt to run the application
 container that has been updated to use MySQL.
+![Docker Stack Trace](figures/docker2-exception.jpg)
 
 #DOCKER COMPOSE - APP SERVER AND MYSQL
 - [5 pts] Your updated docker-compose.yml file containing the application server, built from
 your local Dockerfile, and the existing MySQL configuration. Please provide a link
+![docker-compose.yml](https://github.com/FCAMEX/spring-petclinic/blob/master/docker-compose.yml)
 to this file rather than a screen capture.
 - [5 pts] Your updated application-mysql.properties file containing the URL change for
 the database server. Please provide a link to this file rather than a screen capture.
+![application-mysql.properties](https://github.com/FCAMEX/spring-petclinic/blob/master/src/main/resources/application-mysql.properties)
 - [5 pts] The output from the docker-compose up command.
+![Docker Compose1](figures/docker3-compose.jpg)
+![Docker Compose2](figures/docker3-compose2.jpg)
 - [5 pts] Your browser accessing the “Veterinarians” page of the website from your local container.
-
+![Docker Stack Trace](figures/docker2-exception.jpg)
+![Docker Veterinarians](figures/docker3-vets.jpg)
 
 
 

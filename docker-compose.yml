@@ -2,6 +2,7 @@ version: '3'
 services:
  mysql:
   image: mysql:5.7
+  #had to add this command for database to work
   command: --innodb-use-native-aio=0
   ports:
     - "3306:3306/tcp"
@@ -11,3 +12,10 @@ services:
   volumes:
     - "./conf.d:/etc/mysql/conf.d:ro"
     - ".data.d:/var/lib/mysql"
+ webapp:
+    image: se441/spring-petclinic:both
+    ports:
+     - "8484:8080/tcp"
+    depends_on:
+     - mysql
+
