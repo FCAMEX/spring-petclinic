@@ -1,6 +1,36 @@
 # Instructions
 Fernando Araujo ID 1266517
 
+
+#Docker  [50 pts]
+- [5 pts] Your dockerfile. Please provide a link to this file rather than a screen capture.
+![Dockerfile](Dockerfile)
+- [5 pts] Your running docker instance as shown by a ps command.
+![Docker PS](figures/dockerps1.jpg)
+- [5 pts] Your browser accessing the main page of the website from your local container.
+![Docker Browser](figures/docker1.jpg)
+
+#DOCKER COMPOSE - MYSQL ONLY
+- [5 pts] The output from the docker-compose up command.
+![Docker Compose1](figures/docker2-compose1.jpg)
+![Docker Compose2](figures/docker2-compose2.jpg)
+- [5 pts] Your browser accessing the “Veterinarians” page of the website from your local container when you run the application from the host system.
+![Docker Compose1](figures/docker2-vets.jpg)
+- [5 pts] A section of the stack trace generated when you attempt to run the application
+container that has been updated to use MySQL.
+
+#DOCKER COMPOSE - APP SERVER AND MYSQL
+- [5 pts] Your updated docker-compose.yml file containing the application server, built from
+your local Dockerfile, and the existing MySQL configuration. Please provide a link
+to this file rather than a screen capture.
+- [5 pts] Your updated application-mysql.properties file containing the URL change for
+the database server. Please provide a link to this file rather than a screen capture.
+- [5 pts] The output from the docker-compose up command.
+- [5 pts] Your browser accessing the “Veterinarians” page of the website from your local container.
+
+
+
+
 #Travis CI  [50 pts]
 - [5 pts] Your Github account showing that is has been forked from the depaulcdm/springpetclinic repository.
 ![Forked Repository](figures/forked-repo.jpg)
